@@ -9,7 +9,8 @@ I'm a Full stack web developer🤩 and also  a data science enthusiast😎.
 I like participating in open source projects🐾.
 I love music🎶
 
-![Uploading wallpaperbetter.jpg…]()
+![wallpaperbetter](https://user-images.githubusercontent.com/84716878/175298498-cea3cd91-c5b0-4b06-9416-7301be218cd9.jpg)
+
 
 
 connect with me:
