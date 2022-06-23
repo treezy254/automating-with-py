@@ -11,7 +11,7 @@ Hi👋, I'm Samuel
 <li>I love music🎶</li>
  </ul>
 
-![wallpaperbetter](https://user-images.githubusercontent.com/84716878/175298498-cea3cd91-c5b0-4b06-9416-7301be218cd9.jpg)
+<width="100px" height="100px">![wallpaperbetter](https://user-images.githubusercontent.com/84716878/175298498-cea3cd91-c5b0-4b06-9416-7301be218cd9.jpg)</>
 
 
 
