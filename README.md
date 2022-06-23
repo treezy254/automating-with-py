@@ -15,7 +15,7 @@ Hi👋, I'm Samuel
 
 
 
-connect with me:
+<strong>connect with me:</strong>
 <br />
-languages and tools
+<strong>languages and tools</strong>
 
