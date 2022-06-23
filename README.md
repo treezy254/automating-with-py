@@ -9,7 +9,7 @@ I'm a Full stack web developer🤩 and also  a data science enthusiast😎.
 I like participating in open source projects🐾.
 I love music🎶
 
-"C:\Users\badbw\Downloads\wallpaperbetter.jpg"
+C:\Users\badbw\Downloads\wallpaperbetter.jpg
 
 connect with me:
 
