@@ -264,7 +264,54 @@ noNewlineREgex.search('Serve the public trust.\nProtect the innocent. \nUphold t
 newlineRegex = re.compile('.*', re.DOTALL)
 newlineRegex.search('Serve the public trust.\nProtect the innocent.\nUphold the law.').group()
 
+print("-" * 20)
 
+#------------------------------------------------
+
+# Case-Insensitive Matching
+robocop = re.compile(r'robocop', re.I)
+robocop.search('Robocop is part man, part machine, all cop.').group()
+
+robocop.search('ROBOCOP protects the innocent.').group()
+
+robocop.search('Al, why does your programming book talk about robocop so much?').group()
+
+print("-" * 20)
+
+#---------------------------------------------------
+
+# Substituting strings with the sub() method
+
+namesRegex = re.compile(r'Agent \w+')
+nameRegex.sub('CENSORED', 'Agent Alice gave the secret documents to Agent Bob.')
+
+agentNamesRegex = re.compile(r'Agent (\w)w*')
+agentNamesRegex.sub(r'\1****', 'Agent Alice told Agent Carol that Agent Eve knew Agent Bob was a double agent.')
+
+print("-" * 20)
+
+#--------------------------------------------------
+
+# Managibg Complex Regexes
+
+phoneRegex = re.compile(r'''(
+    (\d{3}|\(\d{3}\))?              # area code
+    (\s|-|\.)?                      # separator
+    \d{3}                           # first 3 digits
+    (\s|-|\.)                       # separator
+    \d{4}                           # last 4 digits
+    (\s*(sxt|x|ext.)\s*\d{2,5})?    # extension
+)''', re.VERBOSE)
+
+print("-" * 20)
+
+#--------------------------------------------------
+
+# Combining re.IGNORECASE, re.DOTALL, and re.VERBOSE
+
+someRegexValue = re.compile('foo', re.IGNORECASE | re.DOTALL)
+
+someRegexValue = re.compile('foo', re.IGNORECASE | re.DOTALL | re.VERBOSE)
 
 
 
