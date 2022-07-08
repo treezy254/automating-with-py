@@ -84,7 +84,8 @@ oct21st
 oct21st - aboutThirtyYears
 
 #pausing until a specific date
-import datetimeimport time
+import datetime
+import time
 halloween2022 = datetime.datetime(2022, 10, 31, 0, 0, 0)
 while datetime.datetime.now() < halloween2022:
     time.sleep(1)
