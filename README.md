@@ -6,7 +6,7 @@ The codes are extra extensive, and cover multiple ranges of topics and python li
 But in the end I feel proud of myself for completing it.
 I also had fun writing them codes.
  
-The topics include:
+The topics include: 
   Pattern Matching with Regular Expressions
   Input Validation
   Reading and writing Files
