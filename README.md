@@ -9,7 +9,7 @@ I also had fun writing them codes.
 The topics include: 
   Pattern Matching with Regular Expressions
   Input Validation
-  Reading and writing Files
+  Reading and writing Files 
   Organizing files
   Debugging
   Web Scrapping
